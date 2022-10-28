@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icone.png" type="image/x-icon">
+</head>
+<body>
+
+    <h1>Cadastro Dev</h1>
+    <form action="https://formsubmit.co/caiosouza2807@gmail.com" method="POST">    <!--lots of input configuration without using back-end-->
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/Web-Design/Projects/Cadastro-dev/sucess.html">
+        <input type="hidden" name="_autoresponse" value="Recebemos o seu cadastro, obrigado pelo contato!">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="form">
+            <section class="name">
+                <span id="first-name">Nome</span>  
+                <span id="last-name">Sobrenome</span> <br>
+                <input type="text" id="first-name-input" autocomplete="name" required name="first-name">
+                <input type="text" id="last-name-input" required name="last name">
+            </section>
+    
+            <section class="email">
+                <span>Email</span> <br>
+                <input id="email" type="email" autocomplete="email" required name="email">
+            </section>
+            <p>De qual lado da aplicação você desenvolve ?</p>
+            <div class="development">
+    
+                <input type="radio" id="front" name="development" required>
+                <label for="front">Front-end</label>
+                <br>
+                <input type="radio" id="back" name="development">
+                <label for="back">Back-end</label>
+                <br>
+                <input type="radio" id="full" name="development">
+                <label for="full">Fullstack</label>
+            
+            </div>
+    
+            <p>Senioridade</p>
+            <select name="" id="">
+                <optgroup label="Selecione:">
+                <option>Júnior</option>
+                <option>Pleno</option>
+                <option>Sênior</option>
+            </select>
+    
+            <p>Selecione as linguagens que você utiliza :</p>
+            <input type="checkbox">
+            <label for="html">HTML</label>
+            <input type="checkbox">
+            <label for="css">CSS</label>
+            <input type="checkbox">
+            <label for="js">JavaScript</label>
+            <input type="checkbox">
+            <label for="php">PHP</label>
+            <input type="checkbox">
+            <label for="python">Python</label>  <br>
+            <input type="checkbox">
+            <label for="c/c++">C/C++</label>
+            <input type="checkbox">
+            <label for="rust">Rust</label>
+            <input type="checkbox">
+            <label for="assemble">Assemble</label>
+            <input type="checkbox">
+            <label for="java">Java</label>
+            <input type="checkbox">
+            <label for="ruby">Ruby</label>
+    
+            <p>Conte um pouco mais da sua experiência :</p>
+            <textarea name="message" id="" cols="50" rows="10" placeholder="Deixe seu comentário"></textarea>
+            <br>
+            <button type="submit" id="confirm">Concluído</button>
+        </div>
+        
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
