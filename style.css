@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    width: 99%;
     min-height: 100%;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@ form {
     border-radius: 50px;
     width: 500px;
     background-color: #CFB997;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 .form {
     text-align: center;
@@ -23,7 +23,7 @@ h1 {
     text-shadow: 2px 2px white;
     font-size: 50px;
     position: absolute;
-    top: 10px;
+    top: 40px;
 }
 input {
     border: 1px solid;
@@ -71,4 +71,11 @@ p {
 }
 textarea {
     resize: none;
+}
+footer {
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
